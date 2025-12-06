@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الجزيرة | خدمات عزل وصيانة منزلية في جدة ومكة والجموم</title>
+    <meta name="description"
+        content="شركة الجزيرة للخدمات المنزلية - تقدم خدمات عزل الأسطح، عزل الخزانات، كشف تسريب المياه، عزل الحمامات والمسابح، إيبوكسي الأرضيات، صيانة المسابح، دهانات الحوائط، وجبسون بورد في جدة، مكة، الجموم، رابع، ثول، خيلص، ينبع">
+    <meta name="keywords"
+        content="عزل أسطح السعودية, عزل خزانات جدة, كشف تسريب المياه مكة, عزل حمامات الجموم, إيبوكسي أرضيات ينبع, صيانة مسابح ثول, دهانات حوائط رابع, جبسون بورد خيلص">
+    <meta name="author" content="شركة الجزيرة">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a5f7a;
+            --secondary-color: #57a6b8;
+            --accent-color: #f8b739;
+            --light-color: #f7f9fc;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #fff;
+            direction: rtl;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background-color: white;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo i {
+            font-size: 2rem;
+            color: var(--primary-color);
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            color: var(--primary-color);
+        }
+
+        .logo span {
+            color: var(--accent-color);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--dark-color);
+            font-weight: 600;
+            font-size: 1rem;
+            transition: var(--transition);
+            padding: 5px 0;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        nav a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--primary-color);
+            bottom: 0;
+            right: 0;
+            transition: var(--transition);
+        }
+
+        nav a:hover:after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(26, 95, 122, 0.85), rgba(26, 95, 122, 0.9)), url('https://images.unsplash.com/photo-1589923186741-b7d59d6b2c4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #e6a328;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Services */
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: var(--primary-color);
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 3px;
+            background: var(--accent-color);
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%);
+        }
+
+        .services {
+            padding: 80px 0;
+            background-color: var(--light-color);
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .service-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-img img {
+            transform: scale(1.05);
+        }
+
+        .service-content {
+            padding: 25px;
+        }
+
+        .service-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.3rem;
+        }
+
+        .service-content p {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        .service-link {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        /* Locations */
+        .locations {
+            padding: 80px 0;
+        }
+
+        .locations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .location-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+
+        .location-card:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .location-card i {
+            font-size: 2rem;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+
+        .location-card:hover i {
+            color: white;
+        }
+
+        /* Gallery */
+        .gallery {
+            padding: 80px 0;
+            background-color: var(--light-color);
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            height: 250px;
+            box-shadow: var(--shadow);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+            color: white;
+            padding: 20px;
+            transform: translateY(100%);
+            transition: var(--transition);
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        /* About */
+        .about {
+            padding: 80px 0;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        .about-img {
+            flex: 1;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .about-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .about-content h2 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about-content p {
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+
+        /* Floating Buttons */
+        .floating-buttons {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .floating-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .floating-btn.whatsapp {
+            background-color: #25D366;
+        }
+
+        .floating-btn.phone {
+            background-color: var(--primary-color);
+        }
+
+        .floating-btn:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            padding: 60px 0 30px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col h3 {
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            color: var(--accent-color);
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 2px;
+            background: var(--accent-color);
+            bottom: 0;
+            right: 0;
+        }
+
+        .footer-col p {
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #ddd;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-color);
+            padding-right: 5px;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .about {
+                flex-direction: column;
+            }
+
+            .about-img,
+            .about-content {
+                flex: none;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-wrap: wrap;
+            }
+
+            nav {
+                width: 100%;
+                order: 3;
+                margin-top: 20px;
+                display: none;
+            }
+
+            nav.active {
+                display: block;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 0;
+            }
+
+            nav li {
+                border-bottom: 1px solid #eee;
+            }
+
+            nav a {
+                display: block;
+                padding: 15px 0;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h2 {
+                font-size: 2.2rem;
+            }
+
+            .floating-buttons {
+                left: 15px;
+                bottom: 15px;
+            }
+
+            .floating-btn {
+                width: 50px;
+                height: 50px;
+                font-size: 1.3rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero {
+                padding: 70px 0;
+            }
+
+            .hero h2 {
+                font-size: 1.8rem;
+            }
+
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+
+            .services-grid,
+            .locations-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-island-tropical"></i>
+                <h1>الجزيرة <span>للخدمات المنزلية</span></h1>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#locations">المناطق</a></li>
+                    <li><a href="#gallery">معرض الأعمال</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>خدمات منزلية متكاملة في جميع أنحاء السعودية</h2>
+            <p>نقدم أفضل خدمات العزل والصيانة المنزلية في جدة، مكة، الجموم، رابع، ثول، خيلص، ينبع. خبرة واسعة وجودة
+                عالية بأسعار تنافسية.</p>
+            <a href="#contact" class="btn">اطلب خدمتك الآن</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>خدماتنا المتخصصة</h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="عزل الأسطح">
+                    </div>
+                    <div class="service-content">
+                        <h3>عزل الأسطح</h3>
+                        <p>خدمات عزل الأسطح المائية والحرارية باستخدام أفضل المواد العازلة لمنع التسربات والحفاظ على
+                            المبنى.</p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="عزل خزانات">
+                    </div>
+                    <div class="service-content">
+                        <h3>عزل خزانات المياه</h3>
+                        <p>عزل داخلي وخارجي للخزانات الأرضية والعلوية بمواد عازلة مخصصة لضمان نقاء المياه وحماية الخزان.
+                        </p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="كشف تسريب المياه">
+                    </div>
+                    <div class="service-content">
+                        <h3>كشف تسريب المياه</h3>
+                        <p>الكشف الدقيق عن تسربات المياه باستخدام أحدث الأجهزة التكنولوجية بدون تكسير مع تقديم تقرير
+                            مفصل.</p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="عزل حمامات">
+                    </div>
+                    <div class="service-content">
+                        <h3>عزل الحمامات</h3>
+                        <p>عزل كامل للحمامات ضد الرطوبة والمياه باستخدام مواد عازلة عالية الجودة تتحمل الظروف القاسية.
+                        </p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1539185441755-769473a23570?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="عزل مسابح">
+                    </div>
+                    <div class="service-content">
+                        <h3>عزل المسابح</h3>
+                        <p>عزل مسابح داخلي وخارجي بمواد مخصصة تتحمل ضغط المياه والمواد الكيميائية مع ضمان عدم التسرب.
+                        </p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="عزل ايبوكسي أرضيات">
+                    </div>
+                    <div class="service-content">
+                        <h3>عزل إيبوكسي للأرضيات</h3>
+                        <p>تطبيق طلاء الإيبوكسي العازل والمقاوم للكيماويات والبقع على الأرضيات الصناعية والمنزلية.</p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 7 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="صيانة مسابح">
+                    </div>
+                    <div class="service-content">
+                        <h3>صيانة المسابح</h3>
+                        <p>خدمات صيانة شاملة للمسابح تشمل التنظيف والتعقيم وإصلاح المضخات والمرشحات وكل ما يلزم.</p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 8 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="دهانات حوائط">
+                    </div>
+                    <div class="service-content">
+                        <h3>دهانات الحوائط</h3>
+                        <p>خدمات دهان داخلي وخارجي باستخدام أجود أنواع الدهانات وأحدث التقنيات لنتائج مميزة تدوم طويلاً.
+                        </p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+
+                <!-- Service 9 -->
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1615873968403-89e068629265?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                            alt="جبسون بورد">
+                    </div>
+                    <div class="service-content">
+                        <h3>جبسون بورد وديكورات</h3>
+                        <p>تصميم وتنفيذ ديكورات جبسية متميزة بجميع أنواعها مع التركيب والدعم الفني المتكامل.</p>
+                        <a href="#" class="service-link">المزيد <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations" id="locations">
+        <div class="container">
+            <div class="section-title">
+                <h2>المناطق التي نخدمها</h2>
+            </div>
+
+            <div class="locations-grid">
+                <div class="location-card">
+                    <i class="fas fa-city"></i>
+                    <h3>جدة</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-mosque"></i>
+                    <h3>مكة المكرمة</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-tree"></i>
+                    <h3>الجموم</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-building"></i>
+                    <h3>رابع</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-water"></i>
+                    <h3>ثول</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-sun"></i>
+                    <h3>خيلص</h3>
+                </div>
+                <div class="location-card">
+                    <i class="fas fa-umbrella-beach"></i>
+                    <h3>ينبع</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>معرض أعمالنا</h2>
+            </div>
+
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="مشروع عزل سطوح">
+                    <div class="gallery-overlay">
+                        <h4>عزل سطوح - جدة</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="مشروع عزل خزانات">
+                    <div class="gallery-overlay">
+                        <h4>عزل خزانات - مكة</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5lEfRpQ3nCYYGjw8hfI61wMVlNwmgJAA6fQ&s"
+                        alt="مشروع كشف تسرب">
+                    <div class="gallery-overlay">
+                        <h4>كشف تسرب - الجموم</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="مشروع إيبوكسي أرضيات">
+                    <div class="gallery-overlay">
+                        <h4>إيبوكسي أرضيات - ينبع</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1598928506311-c55ded91a20c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="مشروع دهانات">
+                    <div class="gallery-overlay">
+                        <h4>دهانات حوائط - رابع</h4>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                        alt="مشروع جبسون بورد">
+                    <div class="gallery-overlay">
+                        <h4>جبسون بورد - ثول</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>من نحن - شركة الجزيرة للخدمات المنزلية</h2>
+                <p>شركة الجزيرة هي شركة سعودية متخصصة في تقديم خدمات العزل والصيانة المنزلية منذ عام 2010. نحن نفتخر
+                    بخبرتنا الواسعة وجودة خدماتنا التي نقدمها في مختلف مناطق المملكة العربية السعودية.</p>
+                <p>نتميز بفريق عمل محترف مدرب على أعلى مستوى، واستخدامنا لأفضل المواد والتقنيات الحديثة في جميع خدماتنا.
+                    جودة العمل ورضاء العميل هما أولويتنا الأساسية.</p>
+                <p>نحن نغطي مناطق جدة، مكة المكرمة، الجموم، رابع، ثول، خيلص، ينبع، ونقدم خدمات شاملة تلبي جميع احتياجات
+                    المنزل من العزل والصيانة.</p>
+                <a href="#contact" class="btn">تواصل معنا الآن</a>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                    alt="فريق عمل شركة الجزيرة">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="services" id="contact" style="padding-bottom: 40px;">
+        <div class="container">
+            <div class="section-title">
+                <h2>اتصل بنا</h2>
+            </div>
+
+            <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.2rem; margin-bottom: 30px;">نحن هنا لخدمتك في أي وقت. اتصل بنا الآن للحصول على
+                    استشارة مجانية أو لطلب أي من خدماتنا.</p>
+
+                <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-bottom: 40px;">
+                    <div style="text-align: center;">
+                        <div
+                            style="background-color: var(--primary-color); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                            <i class="fas fa-phone-alt" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 5px;">اتصل بنا</h3>
+                        <p style="font-weight: 600;">+966 54 878 2218</p>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <div
+                            style="background-color: var(--secondary-color); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                            <i class="fas fa-envelope" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 5px;">البريد الإلكتروني</h3>
+                        <p style="font-weight: 600;">info@aljazera-services.com</p>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <div
+                            style="background-color: var(--accent-color); width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px;">
+                            <i class="fas fa-clock" style="color: white; font-size: 1.5rem;"></i>
+                        </div>
+                        <h3 style="color: var(--primary-color); margin-bottom: 5px;">ساعات العمل</h3>
+                        <p style="font-weight: 600;">من السبت إلى الخميس<br>8 صباحاً - 10 مساءً</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>شركة الجزيرة</h3>
+                    <p>شركة رائدة في خدمات العزل والصيانة المنزلية في المملكة العربية السعودية. نقدم خدمات عالية الجودة
+                        بأسعار تنافسية.</p>
+                    <div style="display: flex; gap: 15px; margin-top: 20px;">
+                        <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-twitter"></i></a>
+                        <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="color: white; font-size: 1.2rem;"><i class="fab fa-snapchat-ghost"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#services">خدماتنا</a></li>
+                        <li><a href="#locations">المناطق</a></li>
+                        <li><a href="#gallery">معرض الأعمال</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>خدماتنا</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">عزل الأسطح</a></li>
+                        <li><a href="#">عزل الخزانات</a></li>
+                        <li><a href="#">كشف تسريب المياه</a></li>
+                        <li><a href="#">عزل الحمامات</a></li>
+                        <li><a href="#">عزل المسابح</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>اتصل بنا</h3>
+                    <p><i class="fas fa-map-marker-alt" style="margin-left: 8px;"></i> جدة، المملكة العربية السعودية</p>
+                    <p><i class="fas fa-phone" style="margin-left: 8px;"></i> +966 54 878 2218</p>
+                    <p><i class="fas fa-envelope" style="margin-left: 8px;"></i> info@aljazera-services.com</p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>جميع الحقوق محفوظة &copy; 2023 شركة الجزيرة للخدمات المنزلية</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/966548782218" class="floating-btn whatsapp" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+966548782218" class="floating-btn phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+    </div>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainNav = document.getElementById('mainNav');
+
+        mobileMenuBtn.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+            const icon = this.querySelector('i');
+            if (mainNav.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    // Close mobile menu if open
+                    if (mainNav.classList.contains('active')) {
+                        mainNav.classList.remove('active');
+                        mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+                        mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+                    }
+
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+            } else {
+                header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.08)';
+            }
+        });
+
+        // Gallery hover effect enhancement
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        galleryItems.forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                this.style.transform = 'translateY(-10px)';
+            });
+
+            item.addEventListener('mouseleave', function () {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+
+</html>
